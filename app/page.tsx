@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <div>
       <div className="tw-max-w-7xl tw-m-auto tw-p-2">
-        <Card/>
+        <div className="tw-flex tw-gap-3">
+          <Card title="Autocomplete" page="/autocomplete" />          
+          <Card title="Tab Navigation" page="/tabnavigation"/>          
+        </div>
       </div>
     </div>
   );
