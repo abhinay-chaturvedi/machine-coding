@@ -1,0 +1,10 @@
+li:hover {
+    background-color: #84cc16;
+  }
+
+  /* li:hover ~ li:not(:hover) {
+    background-color: #ccc;
+  } */
+  li:has(~ li:hover) {
+    background-color: #84cc16;
+  }

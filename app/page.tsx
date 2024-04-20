@@ -8,6 +8,7 @@ export default function Home() {
         <div className="tw-flex tw-gap-3">
           <Card title="Autocomplete" page="/autocomplete" />          
           <Card title="Tab Navigation" page="/tabnavigation"/>          
+          <Card title="Star Rating" page="/starrating"/>          
         </div>
       </div>
     </div>
