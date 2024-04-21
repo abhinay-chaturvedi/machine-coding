@@ -11,13 +11,14 @@ const RatingComponent = () => {
           {
             ratingArr.map((item, index) => {
               return (
-                <li onClick={() => setStars(item)} key={index} className={"tw-cursor-pointer tw-w-5 tw-h-5 tw-rounded-[50%] tw-border-2 tw-border-red-600" + (index < stars? " tw-bg-lime-500 tw-pointer-events-none": "")}></li>
+                <li style={{"--star-color": index<stars?"yellow":""}} onClick={() => setStars(item)} key={index} className={"five-pointed-star tw-cursor-pointer tw-w-0 tw-h-0"}></li>
               )
             })
           }
         </ul>
         <span className="tw-font-bold tw-text-[20px]">Star Rating Count: {stars}</span>
       </div>
+      {/* <div className="five-pointed-star"></div> */}
     </div>
   )
 }
