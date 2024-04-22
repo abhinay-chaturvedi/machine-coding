@@ -9,6 +9,7 @@ export default function Home() {
           <Card title="Autocomplete" page="/autocomplete" />          
           <Card title="Tab Navigation" page="/tabnavigation"/>          
           <Card title="Star Rating" page="/starrating"/>          
+          <Card title="Pop Over" page="/popover"/>          
         </div>
       </div>
     </div>
