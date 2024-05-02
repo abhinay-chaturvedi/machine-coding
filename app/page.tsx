@@ -10,6 +10,7 @@ export default function Home() {
           <Card title="Tab Navigation" page="/tabnavigation"/>          
           <Card title="Star Rating" page="/starrating"/>          
           <Card title="Pop Over" page="/popover"/>          
+          <Card title="Accordian" page="/accordian"/>          
         </div>
       </div>
     </div>
