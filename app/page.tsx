@@ -5,12 +5,13 @@ export default function Home() {
   return (
     <div>
       <div className="tw-max-w-7xl tw-m-auto tw-p-2">
-        <div className="tw-flex tw-gap-3">
+        <div className="tw-flex tw-gap-3 tw-flex-wrap tw-justify-center">
           <Card title="Autocomplete" page="/autocomplete" />          
           <Card title="Tab Navigation" page="/tabnavigation"/>          
           <Card title="Star Rating" page="/starrating"/>          
           <Card title="Pop Over" page="/popover"/>          
           <Card title="Accordian" page="/accordian"/>          
+          <Card title="Carousel" page="/carousel"/>          
         </div>
       </div>
     </div>
