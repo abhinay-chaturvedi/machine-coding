@@ -1,0 +1,9 @@
+.move-right {
+transform: translateX(200px);
+transition: transform 1s;
+}
+.back-to-origin {
+transform: translateX(0px);
+/* transition: .5ms; */
+transition: transform 1s;
+}
